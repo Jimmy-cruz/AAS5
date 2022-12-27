@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./resultado.component.css']
 })
 export class ResultadoComponent {
-
+  resultado = 0;
 }

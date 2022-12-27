@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./inputs.component.css']
 })
 export class InputsComponent {
+  operador = "+"
+  if (operacion = "-") {
+    this.operador = "+";
+  }
+
+  
 
 }
