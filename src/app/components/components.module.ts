@@ -20,6 +20,14 @@ import { ResultadoComponent } from './body/resultado/resultado.component';
   ],
   imports: [
     CommonModule
+  ], 
+  exports: [
+    NavbarComponent,
+    HeaderComponent,
+    BodyComponent,
+    BotonesComponent,
+    InputsComponent,
+    ResultadoComponent
   ]
 })
 export class ComponentsModule { }
