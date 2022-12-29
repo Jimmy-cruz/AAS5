@@ -1,5 +1,16 @@
 input{
     width: 60px;
     border: 0;
+    font-size: 50px;
 }
 
+.col{
+    width: 25%;
+}
+button{
+    width: 150px;
+    font-size: 25px;
+}
+#operador{
+    font-size: 50px;
+}

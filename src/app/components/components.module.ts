@@ -6,6 +6,7 @@ import { BodyComponent } from './body/body.component';
 import { BotonesComponent } from './body/botones/botones.component';
 import { InputsComponent } from './body/inputs/inputs.component';
 import { ResultadoComponent } from './body/resultado/resultado.component';
+import { FormsModule } from '@angular/forms';
 
 
 
@@ -19,7 +20,8 @@ import { ResultadoComponent } from './body/resultado/resultado.component';
     ResultadoComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    FormsModule
   ], 
   exports: [
     NavbarComponent,

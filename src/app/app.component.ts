@@ -7,4 +7,13 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'AAS5';
+
+  // ------pruebas
+  // num = 0;
+  // res = 0;
+
+  // calcular(){
+  //   this.res = this.num + 1;
+  // }
+
 }

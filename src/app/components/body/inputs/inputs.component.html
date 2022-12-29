@@ -3,20 +3,42 @@
 <!-- inputs -->
 
 <div class="container">
-    <div class="row">
-        <h3 class="text-center">Ingrese dos valores:</h3>
-    </div>
-    <div class="row mt-4 text-center">
-        <div class="col-5">
-            <input class="border-bottom" type="number" placeholder="0" #txtn1>
+    
+        <div class="row">
+            <h3 class="text-center">Ingrese dos valores:</h3>
         </div>
-        <div class="col-2 text-center">
-            {{operador}}
+        <div class="row mt-4 text-center">
+            <div class="col-5">
+                <input class="border-bottom" type="number" value="0" #txtn1>
+            </div>
+            <div class="col-2 text-center">
+                <p id="operador">{{operador}}</p>
+            </div>
+            <div class="col-5">
+                <input class="border-bottom" type="number" value="0" #txtn2>
+            </div>
         </div>
-        <div class="col-5">
-            <input class="border-bottom" type="number" placeholder="0" #txtn2>
+        <div class="container mt-4">
+            <div class="row mb-4">
+                <div class="col">
+                    <button type="submit" class="btn btn-primary" (click)="sumar()">+</button>
+                    <!-- (click)="sumar()" -->
+                </div>
+                <div class="col">
+                    <button class="btn btn-primary" (click)="restar()" >-</button>
+                    <!-- (click)="restar()" -->
+                </div>
+                <div class="col">
+                    <button class="btn btn-primary" (click)="multiplicar()">*</button>
+                    <!-- (click)="multiplicar()" -->
+                </div>
+                <div class="col">
+                    <button class="btn btn-primary" (click)="dividir()">/</button>
+                    <!-- (click)="dividir()" -->
+                </div>
+            </div>
         </div>
-    </div>
+    
 </div>
 
 

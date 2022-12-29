@@ -1,9 +1,12 @@
 <!-- <p>resultado works!</p> -->
+
 <div class="container">
     <div class="row">
-        <h3 class="text-center">RESULTADO:</h3>
+        
     </div>
     <div class="row mt-2 p-3 mb-2 bg-secondary border border-primary text-white">
-        <span>{{resultado}}</span>
+        <h3 class="text-center">RESULTADO:</h3>
+        <span id="resultado">{{resultado}}</span>
     </div>
 </div>
+<app-inputs (resultadoH)="resultado = $event"></app-inputs>
